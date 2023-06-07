@@ -1,0 +1,9 @@
+.div1 {
+    height: 20%;
+    width: 100%;
+    object-fit: fill;
+    background-image: url(../images/vakantiefoto.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }

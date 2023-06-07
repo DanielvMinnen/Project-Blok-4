@@ -1,0 +1,30 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(8, 59, 247);
+    width: 100%;
+    color: white; 
+    display: flex;
+    height: 80px;
+    flex-direction:row ;
+    justify-content: space-evenly; 
+}
+
+.flex-container1{
+    display: flex;
+    margin: 0px;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: stretch;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+
+ul{
+    align-items: center;
+}
+
+

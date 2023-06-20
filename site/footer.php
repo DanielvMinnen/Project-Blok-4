@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="footer.css">
+<link rel="stylesheet" href="css/footer.css">
 
 
 <footer class="flex-container1">
@@ -7,6 +7,7 @@
             <h3>Over</h3>
             <div class="footer2">
                 <ul>Nova College</ul>
+                <ul>Software Developer  </ul>
             </div>
         </div>
 

@@ -1,0 +1,20 @@
+body { font-family: arial, sans-serif; align-items: center; } 
+main { width: 100%; } 
+div.container { background: rgb(9, 140, 255); width: 80%; margin: 60px auto 0 
+auto; border-radius: 20px; } 
+input { appearance: none; padding: 10px 16px; border-radius: 20px; background-color: aquamarine;
+border: none; margin-top: 6px; font-size: 1.1em; }
+label { font-size: 0.6em; color: darkgray; padding-left: 16px; text-transform: uppercase; }
+input:focus { background-color: beige; color: red; } 
+button { appearance: none; border: 1px solid transparent; padding: 10px 
+16px; border-radius: 20px; margin-top: 20px; background-color: 
+rgb(9, 250, 186); }
+button:hover { border: 1px solid black; cursor: pointer; }
+ul { list-style: none; margin: 0 auto; }
+li { display: inline-block; }
+h1 {text-align: center;}
+table, th, td {
+    border: 1px solid black;
+    align-items: center;
+    justify-content: space-evenly;
+}

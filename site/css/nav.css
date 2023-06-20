@@ -1,4 +1,4 @@
-nav {
+.nav {
     display: flex;
     background: rgb(8, 59, 247);
     max-height: auto;
@@ -6,6 +6,10 @@ nav {
     padding-top: 0px;
     color: white;
     justify-content: space-evenly;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
   
   
@@ -27,6 +31,7 @@ nav {
     text-align: center;
     padding: 16px 16px;
     text-decoration: none;
+     border-radius: 4px;
   }
   
   * {
@@ -45,15 +50,16 @@ nav {
   li a:hover {
     background-color: rgb(0, 0, 0);
     transition: 2s;
+   
   }
-  
-  li a:hover {
-    background-color: #111;
-  }
-  
+
   header{
     background-color:  rgb(8, 59, 247);
     display: flex;
     justify-content: start;
     color: white;
+  }
+
+  script{
+    margin-right: 90%;
   }

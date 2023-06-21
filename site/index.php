@@ -15,7 +15,7 @@ require 'database.php'
 <body>
     <?php include 'nav.php' ?>
 
-    <div class="div1"></div>
+<h1>Welkom</h1>
 
     <?php include 'footer.php' ?>
 </body>

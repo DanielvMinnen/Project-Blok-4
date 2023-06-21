@@ -1,12 +1,6 @@
 <?php
 require 'database.php';
 
-if ($_SERVER["REQUEST_METHOD"] !== "POST") {
-    header($_SERVER["SERVER_PROTOCOL"] . " 405 Method Not Allowed", true, 405);
-    include "405.php";
-    exit;
-}
-
 //de sql query
 $sql = "SELECT * FROM user";
 
@@ -28,7 +22,7 @@ $users = mysqli_fetch_all($result, MYSQLI_ASSOC);
 </head>
 
 <body>
-    <?php include 'nav.php' ?>
+    <?php include 'nav2.php' ?>
 
     <table>
         <tr>

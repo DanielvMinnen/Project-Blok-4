@@ -1,0 +1,62 @@
+h1, h2 {
+    color: #4285f4;
+}
+
+a {
+    color: #4285f4;
+    text-decoration: none;
+}
+
+
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4285f4;
+}
+
+input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#resultaat {
+    
+    margin-top: 10px;
+}
+.container2 {
+    background-color: #f2f7fc;
+    border: 1px solid #4285f4;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+h1 {
+    color: #4285f4;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+

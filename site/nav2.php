@@ -7,8 +7,9 @@
             <li class="navbar"><a href="http://localhost/vakantiesA.php">Vakanties</a></li>
             <li class="navbar"><a href="http://localhost/registreer.php">Registreren</a></li>
             <li class="navbar"><a href="http://localhost/inloggen.php">Inloggen</a></li>
+            <li class="navbar" ><a href="http://localhost/bestemming.php">bestemming</a></li>
             <li class="navbar" ><a href="http://localhost/java.php">JavaScript</a></li>
-            <li class="navbar" ><a href="http://localhost/logout.php">logout</a></li>
+            <li class="navbar" ><a href="http://localhost/logout.php">Lougout</a></li>
         </ul>
     </nav>
 </header>

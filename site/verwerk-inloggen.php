@@ -22,6 +22,7 @@ if (!is_array($user)) {
     exit;
 }
 
+var_dump($user);
 if (password_verify($wachtwoord, $user['wachtwoord'])) {
     session_start();
 
@@ -34,8 +35,10 @@ if (password_verify($wachtwoord, $user['wachtwoord'])) {
         header("location: admin-dashboard.php");
     } elseif (!is_null($user['managerID'])) {
         header("location: manager-dashboard.php");
-    } elseif (!is_null($user['regularID'])) {
-            header("location: regular-dashboard.php");
+    } elseif (!is_null($user['regularID'])) { 
+        header("location: regular-dashboard.php"); 
+    } else {
+        // If none of the above conditions match, redirect to a default dashboard page or display an error message.
+        header("location: default-dashboard.php");
     }
 }
-
